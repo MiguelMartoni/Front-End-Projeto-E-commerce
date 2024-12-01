@@ -1,0 +1,30 @@
+body{
+    padding: 16px;
+}
+
+.card{
+    width: 18rem;
+    border: 3px solid #EA7C69;
+}
+
+#search-bar::placeholder {
+    color: #ffffff; 
+    opacity: 0.5; 
+  }
+
+  #search-bar:focus {
+    border-color: #ea7c69; /* Cor da borda no foco */
+    box-shadow: 0 0 5px rgb(188, 100, 85); /* Leve sombra para efeito de destaque */
+    outline: none; /* Remove a borda de foco azul padrão */
+  }
+
+  .border-custom {
+    border: 1px solid #676161;
+    border-radius: 5px;
+  }
+
+#sort-options:focus{
+    border-color: #ea7c69; /* Cor da borda no foco */
+    box-shadow: 0 0 5px rgb(188, 100, 85); /* Leve sombra para efeito de destaque */
+    outline: none;
+}
