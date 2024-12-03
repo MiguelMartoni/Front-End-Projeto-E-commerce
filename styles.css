@@ -13,9 +13,9 @@ body{
   }
 
   #search-bar:focus {
-    border-color: #ea7c69; /* Cor da borda no foco */
-    box-shadow: 0 0 5px rgb(188, 100, 85); /* Leve sombra para efeito de destaque */
-    outline: none; /* Remove a borda de foco azul padrão */
+    border-color: #ea7c69;
+    box-shadow: 0 0 5px rgb(188, 100, 85); 
+    outline: none;
   }
 
   .border-custom {
@@ -24,7 +24,13 @@ body{
   }
 
 #sort-options:focus{
-    border-color: #ea7c69; /* Cor da borda no foco */
-    box-shadow: 0 0 5px rgb(188, 100, 85); /* Leve sombra para efeito de destaque */
+    border-color: #ea7c69; 
+    box-shadow: 0 0 5px rgb(188, 100, 85); 
     outline: none;
+}
+
+
+
+#search-button:hover{
+  border-color: #ea7c69;
 }
